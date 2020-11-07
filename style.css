@@ -2,7 +2,7 @@ body {
     font-family: "Source Serif VF", "Source Serif", sans;
     overflow-x: hidden;
     font-size: 100%;
-    font-feature-settings: "kern" 1,"liga" 1;
+    font-feature-settings: "kern" 1, "liga" 1;
 }
 
 article {
@@ -105,7 +105,7 @@ p {
     font-feature-settings: "smcp" 1;
 }
 
-@media (max-width: 25rem) {
+/*@media (max-width: 25rem) {
     body {
         font-size: 80%;
         background-color: blue;
@@ -113,11 +113,11 @@ p {
     }
 
 }
-
-@media (min-width: 20rem), and (max-width: 42rem) {
+*/
+@media (min-width: 30rem), and (max-width: 42rem) {
 
     body {
-        font-size: 80%;
+        background-color: blue;
     }
     .columns {
         column-count: 1;
