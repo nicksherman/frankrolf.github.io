@@ -109,9 +109,6 @@ p {
 /*@media (min-width: 25rem) and (max-width: 35rem) {*/
 /*@media (max-width: 35rem) {*/
 
-    .columns {
-        column-count: 1;
-    }
     .container {
         padding: 0.5rem 0.5rem;
     }
