@@ -114,7 +114,7 @@ p {
 
 }
 
-@media (min-width: 20rem) and (max-width: 42rem) {
+@media (min-width: 20rem), and (max-width: 42rem) {
 
     body {
         font-size: 80%;
