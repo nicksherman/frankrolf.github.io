@@ -61,7 +61,6 @@ h4 {
 }
 
 .container {
-
     max-width: 38rem;
     min-height: 64rem;
     padding: 0.5rem 1.5rem;
@@ -71,7 +70,7 @@ h4 {
 }
 
 .columns {
-    column-count: 2;
+    column-count: 1;
     column-gap: .75rem;
 }
 
@@ -106,17 +105,10 @@ p {
 }
 
 @media (max-width: 25rem) {
-    body {
-        font-family: fantasy;
-    }
 
-}
+/*@media (min-width: 25rem) and (max-width: 35rem) {*/
+/*@media (max-width: 35rem) {*/
 
-@media (min-width: 25rem) and (max-width: 35rem) {
-
-    body {
-        font-family: Georgia;
-    }
     .columns {
         column-count: 1;
     }
@@ -129,6 +121,13 @@ p {
     h4 {
         font-feature-settings: "smcp" 0, "c2sc" 0;
         font-style: italic;
+    }
+
+}
+
+@media (min-width: 35rem) {
+    .columns {
+        column-count: 2;
     }
 
 }
