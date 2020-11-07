@@ -105,7 +105,14 @@ p {
     font-feature-settings: "smcp" 1;
 }
 
-@media (max-width: 42rem) {
+@media (max-width: 20rem) {
+    body {
+        font-size: 80%;
+    }
+
+}
+
+@media (min-width: 20rem) and (max-width: 42rem) {
 
     .columns {
         column-count: 1;
@@ -142,17 +149,6 @@ p {
         background-color: #EEE;
     }
 }
-
-/*        @media (min-width: 1200px) {
-    body {
-        font-size: 120%;
-    }
-    article {
-        max-width: 1100px;
-    }
-}
-*/
-
 
 .ribbon {
     background: none repeat scroll 0% 0% rgb(34, 34, 34);
