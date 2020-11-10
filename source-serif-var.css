@@ -1,4 +1,4 @@
-/*@supports (font-variation-settings:normal) {
+@supports (font-variation-settings:normal) {
     @font-face{
         font-family: 'Source Serif VF';
         font-weight: 200 900;
@@ -17,4 +17,4 @@
     }
 
 
-}*/
+}
